@@ -1,0 +1,118 @@
+{
+	"perguntas": [
+		{
+			"id": "1",
+			"pergunta": "Qual arma você prefere?",
+			"respostas": [
+					{
+						"resposta": "espada",
+						"proxima": "2"
+					},
+					{
+						"resposta": "estilete",
+						"proxima": "3"
+					},
+					{
+						"resposta": "espingarda",
+						"proxima": "4"
+					}
+				]
+		},
+		{
+			"id": "2",
+			"pergunta": "Você foi confrontado por um astronauta.",
+			"respostas": [
+				{
+					"resposta": "Jogar a espada nele!",
+					"proxima": "5"
+				},
+				{
+					"resposta": "Tentar fugir!",
+					"proxima": "4"
+				},
+				{
+					"resposta": "Brincar de pega pega",
+					"proxima": "4"
+				}
+			],
+			"requerimento": [
+				{
+					"id":"1"
+				}
+			]
+		},
+		{
+			"id": "3",
+			"pergunta": "Você foi confrontado por um corredor da formula 1.",
+			"respostas": [
+				{
+					"resposta": "Fazer a barba dele com o estilete",
+					"proxima": "4"
+				},
+				{
+					"resposta": "Tentar fugir em um fuca",
+					"proxima": "4"
+				},
+				{
+					"resposta": "Ficar parado",
+					"proxima": "4"
+				}
+			],
+			"requerimento": [
+				{
+					"id":"1"
+				},
+				{
+					"id":"2"
+				}
+			]
+		},
+		{
+			"id": "4",
+			"pergunta": "Fim. Parte de testes está finalizada",
+			"respostas": [
+				{
+					"resposta":"fim",
+					"id":"0"
+				}
+			],
+			"requerimento": [
+				{
+					"id":"3"
+				},
+				{
+					"id":"2"
+				},
+				{
+					"id":"5"
+				}
+			]
+		},
+		{
+			"id": "5",
+			"pergunta": "ir",
+			"respostas": [
+				{
+					"resposta": "ir",
+					"proxima": "4"
+				},
+				{
+					"resposta": "ir",
+					"proxima": "4"
+				},
+				{
+					"resposta": "ir",
+					"proxima": "4"
+				}
+			],
+			"requerimento": [
+				{
+					"id":"1"
+				},
+				{
+					"id":"2"
+				}
+			]
+		}
+	]
+}

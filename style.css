@@ -1,0 +1,150 @@
+body {
+	background: #3d3d3d;
+}
+#logo {
+	font-size: 40px;
+	width: 283px;
+	height: 35px;
+	margin: 65px auto 15px auto;
+}
+.container {
+	width: 550px;
+	margin: 0px auto 50px auto;
+	position: relative;
+	background: #e9eaee;
+	border: 2px solid #ffffff;
+	padding: 40px 40px 40px 40px;
+	width: 460px;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 1px 2px 6px rgba(0,0,0, 0.5);
+	-moz-box-shadow: 1px 2px 6px rgba(0,0,0, 0.5);
+	-webkit-box-shadow: 1px 2px 6px rgba(0,0,0, 0.5);
+}
+.container-plus {
+	display: none;
+	width: 800px;
+	margin: 0px auto 50px auto;
+	position: relative;
+	background: #e9eaee;
+	border: 2px solid #ffffff;
+	padding: 10px 10px 10px 10px;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 1px 2px 6px rgba(0,0,0, 0.5);
+	-moz-box-shadow: 1px 2px 6px rgba(0,0,0, 0.5);
+	-webkit-box-shadow: 1px 2px 6px rgba(0,0,0, 0.5);
+	font-family: "arial";
+}
+#container .content 
+#container .resposta{
+	position: left;
+	text-align: center;
+	cursor:pointer;
+}
+#container .resposta:hover{
+	color: #222b61;
+	cursor:pointer;
+}
+
+#share-container {
+	width: 544px;
+	margin: 0px auto 50px auto;
+	position: relative;
+	cursor:pointer;
+}
+#share-container .share-options{
+	float: right;
+	/*background: #e9eaee;*/
+	width: 30px;
+	height: 30px;
+	margin-left: 1px;
+	margin-right: 1px;
+	cursor:pointer;
+}
+#share-container .social-image{
+	margin: 0 auto;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	padding-top: 7px;
+	cursor:pointer;
+}
+#share-container .sub{
+	position: absolute;
+	margin: 0 auto;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+}
+
+#plus {
+	color: gray;
+	font-size: 30px;
+	text-align: center;
+	cursor:pointer;
+}
+#plus:hover {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	cursor:pointer;
+}
+
+/* Botões menu share */
+#opt-restart {
+	color: gray;
+	font-size: 25px;
+	text-align: center;
+	font-family: "Pericles";
+	cursor:pointer;
+}
+#opt-restart:hover {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	font-family: "Pericles";
+	cursor:pointer;
+}
+
+#cobalt	{
+	display: none;
+    visibility: hidden;
+}
+
+.footer {
+	float: left;
+	text-align: center;
+}
+#credit {
+	text-align: center;
+	color: #565656;
+	text-transform: lowercase;
+	cursor: default;
+	margin-bottom: 20px;
+}
+
+.drop-container{
+	width: 220px;
+	position: fixed;
+	background: #e9eaee;
+	border: 2px solid #ffffff;
+	padding: 30px 30px 30px 30px;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 1px 2px 6px rgba(0,0,0, 0.5);
+	-moz-box-shadow: 1px 2px 6px rgba(0,0,0, 0.5);
+	-webkit-box-shadow: 1px 2px 6px rgba(0,0,0, 0.5);
+	bottom: 0;
+	right: 5px;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none;   /* Chrome/Safari/Opera */
+	-khtml-user-select: none;    /* Konqueror */
+	-moz-user-select: none;      /* Firefox */
+	-ms-user-select: none;       /* IE/Edge */
+	user-select: none;  
+}
+
+.upload_img{
+	width: 30px;
+}
